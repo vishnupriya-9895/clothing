@@ -34,15 +34,16 @@
     <!-- style -->
     <style>
       .box1 {
-        width: 100px;
-        height: 100px;
+        width: 211px;
+    height: 227px;
+     border-radius: 10px;
       }
       .mainsec {
         height: 278px;
         display: flex;
         justify-content: center;
         justify-content: space-evenly;
-        border-radius: 10px;
+       
       }
       .heyyy {
         display: flex;
@@ -51,13 +52,14 @@
       }
       .content {
         text-align: center;
-        margin-top: 113px;
-        margin-bottom: 59px;
+           margin-top: 43px;
+    margin-bottom: 34px;
       }
       #main {
         margin-top: 220px;
       }
       .img1 {
+            border-radius: 60px;
         transition: transform 0.5s ease;
         cursor: pointer;
         transform: scale(1);
@@ -86,7 +88,7 @@
       .imgggg{
        height: 282px;
     width: 356px; 
-  border: solid 10px #bed2df;
+  /* border: solid 10px #bed2df; */
 
       }
       #imggg1{
@@ -123,6 +125,26 @@ margin-bottom: 37px;
     justify-content: center;
     margin-top: 52px;
       }
+      .imgggg{
+  --c: #91addf; /* the border color */
+  --b: 5px;    /* the border thickness*/
+  --g: 5px;     /* the gap on hover */
+  
+  padding: calc(var(--g) + var(--b));
+  --_g: #0000 25%,var(--c) 0;
+  background: 
+    conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
+     var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
+    conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
+     0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
+  transition: .3s, background-position .3s .3s;
+  cursor: pointer;
+}
+.imgggg:hover {
+  --_i: 100%;
+  transition: .3s, background-size .3s .3s;
+}
+
     </style>
   </head>
   <body style="background-color: rgb(211, 223, 226)">
@@ -511,10 +533,10 @@ margin-bottom: 37px;
        <h1 class="content">shop <span style="color: rgb(27, 106, 189);">The Look</span></h1>
     <div class="five">
       <div class="dives">
-      <img id="imggg1" class="imgggg img1 img-fluid"  src="https://cdn.pixabay.com/photo/2020/10/23/16/50/woman-5679284_1280.jpg" alt=""></div>
-      <div  class="dives1"> <img   id="imggg2"class="imgggg img1 img-fluid" src="https://videos.openai.com/vg-assets/assets%2Ftask_01jrgad8ckegqberxt34y7bwd7%2Fimg_0.webp?st=2025-09-08T12%3A19%3A01Z&se=2025-09-14T13%3A19%3A01Z&sks=b&skt=2025-09-08T12%3A19%3A01Z&ske=2025-09-14T13%3A19%3A01Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=8ffff87a-01f1-47c9-9090-32999d4d6380&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=tZXObJ%2FDe7KBxMZPQlATIvBOXbA5o%2Bkn0ccbzX5opU0%3D&az=oaivgprodscus" alt="">
+      <img id="imggg1" class="imgggg  img-fluid"  src="https://cdn.pixabay.com/photo/2020/10/23/16/50/woman-5679284_1280.jpg" alt=""></div>
+      <div  class="dives1"> <img   id="imggg2"class="imgggg  img-fluid" src="https://videos.openai.com/vg-assets/assets%2Ftask_01jrgad8ckegqberxt34y7bwd7%2Fimg_0.webp?st=2025-09-08T12%3A19%3A01Z&se=2025-09-14T13%3A19%3A01Z&sks=b&skt=2025-09-08T12%3A19%3A01Z&ske=2025-09-14T13%3A19%3A01Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=8ffff87a-01f1-47c9-9090-32999d4d6380&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=tZXObJ%2FDe7KBxMZPQlATIvBOXbA5o%2Bkn0ccbzX5opU0%3D&az=oaivgprodscus" alt="">
       </div>
-      <div class="dives"><img  id="imggg3"class="imgggg  img1 img-fluid"  src="https://cdn.pixabay.com/photo/2024/11/08/05/28/man-9182458_1280.jpg" alt=""></div>
+      <div class="dives"><img  id="imggg3"class="imgggg   img-fluid"  src="https://cdn.pixabay.com/photo/2024/11/08/05/28/man-9182458_1280.jpg" alt=""></div>
       
     </div>
       
